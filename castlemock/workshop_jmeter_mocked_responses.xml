@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restExportContainer>
+    <applications>
+        <application>
+            <id>u5GP2w</id>
+            <name>apis_rest</name>
+            <projectId>Is29MP</projectId>
+            <resources/>
+        </application>
+    </applications>
+    <methods>
+        <method>
+            <currentResponseSequenceIndex>0</currentResponseSequenceIndex>
+            <defaultMockResponseId></defaultMockResponseId>
+            <forwardedEndpoint></forwardedEndpoint>
+            <httpMethod>GET</httpMethod>
+            <id>AA1K8S</id>
+            <mockResponses/>
+            <name>get_HitchhikersGuideToTheGalaxy</name>
+            <networkDelay>0</networkDelay>
+            <resourceId>Vy4EE3</resourceId>
+            <responseStrategy>RANDOM</responseStrategy>
+            <simulateNetworkDelay>false</simulateNetworkDelay>
+            <status>MOCKED</status>
+        </method>
+        <method>
+            <currentResponseSequenceIndex>0</currentResponseSequenceIndex>
+            <httpMethod>GET</httpMethod>
+            <id>sslsdE</id>
+            <mockResponses/>
+            <name>sch_get</name>
+            <networkDelay>0</networkDelay>
+            <resourceId>1oC2P3</resourceId>
+            <responseStrategy>RANDOM</responseStrategy>
+            <simulateNetworkDelay>false</simulateNetworkDelay>
+            <status>MOCKED</status>
+        </method>
+        <method>
+            <currentResponseSequenceIndex>0</currentResponseSequenceIndex>
+            <defaultMockResponseId></defaultMockResponseId>
+            <forwardedEndpoint></forwardedEndpoint>
+            <httpMethod>GET</httpMethod>
+            <id>RZOiIU</id>
+            <mockResponses/>
+            <name>get_RickAndMorty</name>
+            <networkDelay>0</networkDelay>
+            <resourceId>vx4W9s</resourceId>
+            <responseStrategy>RANDOM</responseStrategy>
+            <simulateNetworkDelay>false</simulateNetworkDelay>
+            <status>MOCKED</status>
+        </method>
+        <method>
+            <currentResponseSequenceIndex>0</currentResponseSequenceIndex>
+            <defaultMockResponseId></defaultMockResponseId>
+            <forwardedEndpoint></forwardedEndpoint>
+            <httpMethod>GET</httpMethod>
+            <id>v0nDkL</id>
+            <mockResponses/>
+            <name>get_okidoki</name>
+            <networkDelay>0</networkDelay>
+            <resourceId>r6QpD6</resourceId>
+            <responseStrategy>RANDOM</responseStrategy>
+            <simulateNetworkDelay>false</simulateNetworkDelay>
+            <status>MOCKED</status>
+        </method>
+        <method>
+            <currentResponseSequenceIndex>0</currentResponseSequenceIndex>
+            <defaultMockResponseId></defaultMockResponseId>
+            <forwardedEndpoint></forwardedEndpoint>
+            <httpMethod>POST</httpMethod>
+            <id>oPCmb6</id>
+            <mockResponses/>
+            <name>post_okidoki</name>
+            <networkDelay>500</networkDelay>
+            <resourceId>r6QpD6</resourceId>
+            <responseStrategy>RANDOM</responseStrategy>
+            <simulateNetworkDelay>true</simulateNetworkDelay>
+            <status>MOCKED</status>
+        </method>
+        <method>
+            <currentResponseSequenceIndex>0</currentResponseSequenceIndex>
+            <httpMethod>GET</httpMethod>
+            <id>XwtB4r</id>
+            <mockResponses/>
+            <name>get_notOkidoki</name>
+            <networkDelay>0</networkDelay>
+            <resourceId>oyPLNl</resourceId>
+            <responseStrategy>RANDOM</responseStrategy>
+            <simulateNetworkDelay>false</simulateNetworkDelay>
+            <status>MOCKED</status>
+        </method>
+    </methods>
+    <mockResponses>
+        <mockResponse>
+            <body>{&#13;
+    "result": "${FAKER(api="hitchhikersGuideToTheGalaxy().marvinQuote()")}"&#13;
+}</body>
+            <contentEncodings/>
+            <headerQueries/>
+            <httpHeaders/>
+            <httpStatusCode>200</httpStatusCode>
+            <id>ujlym3</id>
+            <jsonPathExpressions/>
+            <methodId>AA1K8S</methodId>
+            <name>get_42</name>
+            <parameterQueries/>
+            <status>ENABLED</status>
+            <usingExpressions>true</usingExpressions>
+            <xpathExpressions/>
+        </mockResponse>
+        <mockResponse>
+            <body>{ &#13;
+    "id": ${RANDOM_UUID()}, &#13;
+    "isSucesso": false, &#13;
+    "response": "Schrodinger Result: Dead"&#13;
+}</body>
+            <contentEncodings/>
+            <headerQueries/>
+            <httpHeaders/>
+            <httpStatusCode>200</httpStatusCode>
+            <id>pZc6zi</id>
+            <jsonPathExpressions/>
+            <methodId>sslsdE</methodId>
+            <name>get_cat_dead</name>
+            <parameterQueries/>
+            <status>ENABLED</status>
+            <usingExpressions>true</usingExpressions>
+            <xpathExpressions/>
+        </mockResponse>
+        <mockResponse>
+            <body>{ &#13;
+    "id": ${RANDOM_UUID()}, &#13;
+    "isSucesso": true, &#13;
+    "response": &#13;
+    "Schrodinger Result: Alive"&#13;
+}</body>
+            <contentEncodings/>
+            <headerQueries/>
+            <httpHeaders/>
+            <httpStatusCode>200</httpStatusCode>
+            <id>iDby6Z</id>
+            <jsonPathExpressions/>
+            <methodId>sslsdE</methodId>
+            <name>get_cat_alive</name>
+            <parameterQueries/>
+            <status>ENABLED</status>
+            <usingExpressions>true</usingExpressions>
+            <xpathExpressions/>
+        </mockResponse>
+        <mockResponse>
+            <body>{&#13;
+    "id": "${RANDOM_UUID()}",&#13;
+    "Type": "Character",&#13;
+    "Value": "${FAKER(api="rickAndMorty().character()")}"&#13;
+}</body>
+            <contentEncodings/>
+            <headerQueries/>
+            <httpHeaders/>
+            <httpStatusCode>200</httpStatusCode>
+            <id>cGubLh</id>
+            <jsonPathExpressions/>
+            <methodId>RZOiIU</methodId>
+            <name>get_RnM_Character</name>
+            <parameterQueries/>
+            <status>ENABLED</status>
+            <usingExpressions>true</usingExpressions>
+            <xpathExpressions/>
+        </mockResponse>
+        <mockResponse>
+            <body>{&#13;
+    "id": "${RANDOM_UUID()}",&#13;
+    "Type": "Quote",&#13;
+    "Value": "${FAKER(api="rickAndMorty().quote()")}"&#13;
+}</body>
+            <contentEncodings/>
+            <headerQueries/>
+            <httpHeaders/>
+            <httpStatusCode>200</httpStatusCode>
+            <id>0xJR0B</id>
+            <jsonPathExpressions/>
+            <methodId>RZOiIU</methodId>
+            <name>get_RnM_Quote</name>
+            <parameterQueries/>
+            <status>ENABLED</status>
+            <usingExpressions>true</usingExpressions>
+            <xpathExpressions/>
+        </mockResponse>
+        <mockResponse>
+            <body>{&#13;
+    "id": "${RANDOM_UUID()}",&#13;
+    "Type": "Location",&#13;
+    "Value": "${FAKER(api="rickAndMorty().location()")}"&#13;
+}</body>
+            <contentEncodings/>
+            <headerQueries/>
+            <httpHeaders/>
+            <httpStatusCode>200</httpStatusCode>
+            <id>9R9GIt</id>
+            <jsonPathExpressions/>
+            <methodId>RZOiIU</methodId>
+            <name>get_RnM_Location</name>
+            <parameterQueries/>
+            <status>ENABLED</status>
+            <usingExpressions>true</usingExpressions>
+            <xpathExpressions/>
+        </mockResponse>
+        <mockResponse>
+            <body>{ "id": ${RANDOM_UUID()}, "isSucesso": true, "response": "Tudo Nice."}</body>
+            <contentEncodings/>
+            <headerQueries/>
+            <httpHeaders/>
+            <httpStatusCode>200</httpStatusCode>
+            <id>tx3cBX</id>
+            <jsonPathExpressions/>
+            <methodId>v0nDkL</methodId>
+            <name>200_OK</name>
+            <parameterQueries/>
+            <status>ENABLED</status>
+            <usingExpressions>true</usingExpressions>
+            <xpathExpressions/>
+        </mockResponse>
+        <mockResponse>
+            <body>{ &#13;
+	"id": "${RANDOM_UUID()}", &#13;
+	"isSucesso": true, &#13;
+	"response": "Postado com Sucesso",&#13;
+	"nomePostagem": "${BODY_JSON_PATH(expression="$.nome")}"&#13;
+}&#13;
+</body>
+            <contentEncodings/>
+            <headerQueries/>
+            <httpHeaders/>
+            <httpStatusCode>201</httpStatusCode>
+            <id>wy96dE</id>
+            <jsonPathExpressions/>
+            <methodId>oPCmb6</methodId>
+            <name>PostysOKPost</name>
+            <parameterQueries/>
+            <status>ENABLED</status>
+            <usingExpressions>true</usingExpressions>
+            <xpathExpressions/>
+        </mockResponse>
+        <mockResponse>
+            <body>SERVER ERROR &#13;
+&#13;
+(╯°□°）╯︵ ┻━┻</body>
+            <contentEncodings/>
+            <headerQueries/>
+            <httpHeaders/>
+            <httpStatusCode>500</httpStatusCode>
+            <id>igW7gU</id>
+            <jsonPathExpressions/>
+            <methodId>XwtB4r</methodId>
+            <name>Deu ruim</name>
+            <parameterQueries/>
+            <status>ENABLED</status>
+            <usingExpressions>false</usingExpressions>
+            <xpathExpressions/>
+        </mockResponse>
+    </mockResponses>
+    <project>
+        <description>Api's para realização do workshop</description>
+        <id>Is29MP</id>
+        <name>workshop-jmeter</name>
+        <applications/>
+    </project>
+    <resources>
+        <resource>
+            <applicationId>u5GP2w</applicationId>
+            <id>Vy4EE3</id>
+            <methods/>
+            <name>	HitchhikersGuideToTheGalaxy</name>
+            <uri>/42</uri>
+        </resource>
+        <resource>
+            <applicationId>u5GP2w</applicationId>
+            <id>1oC2P3</id>
+            <methods/>
+            <name>schrodinger_resp</name>
+            <uri>/maybe</uri>
+        </resource>
+        <resource>
+            <applicationId>u5GP2w</applicationId>
+            <id>vx4W9s</id>
+            <methods/>
+            <name>RickAndMorty</name>
+            <uri>/RnM</uri>
+        </resource>
+        <resource>
+            <applicationId>u5GP2w</applicationId>
+            <id>r6QpD6</id>
+            <methods/>
+            <name>resp_ok</name>
+            <uri>/okidoki</uri>
+        </resource>
+        <resource>
+            <applicationId>u5GP2w</applicationId>
+            <id>oyPLNl</id>
+            <methods/>
+            <name>resp_nok</name>
+            <uri>/nokidoki</uri>
+        </resource>
+    </resources>
+</restExportContainer>
